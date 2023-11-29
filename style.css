@@ -1,10 +1,22 @@
 
-.form {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+}
+
+.btn {
+    background-color: red;
+    color: yellow;
+    font-size: 2rem;
+    border-radius: .5rem;
+    margin-right: 1rem;
+}
+
+.form {
+    
     display: none;
 }
 .form_box {
